@@ -104,19 +104,6 @@ def get_seed_from_phrase(phrase):
 
     return(seed)
     
-  
-
-if __name__ == "__main__":
-
-    print(f"\nType enter to get a seed or type your's with spaces.\n")
-    choice = input()
-    if choice == "":
-        phrase = get_rand_phrase()
-    else:
-        phrase = get_phrase_from_user(choice)
-
-    seed = get_seed_from_phrase(phrase)
-    
     
 
 
