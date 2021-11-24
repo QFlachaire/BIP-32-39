@@ -1,5 +1,13 @@
-# BIP-32-39
+# BIP-32-39 - M1 ESILV FinTech
+TD from the BlockChain Programming Course I followed in 2021 during my Master at ESILV in Fintech.
 
+## Introduction
+In this project the major functions of the BIP 32 and 39 will be implemented.
+- Generation and verification of a mnemonic.
+- Generation of external public and private keys.
+- Generation of child keys.
+
+## Launch guide
 Please execute the "__main__.py".
 You will have to choose between enter your mnemonic phrase or generate a random one.
 
